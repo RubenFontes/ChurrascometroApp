@@ -1,3 +1,4 @@
 # Churrascometro
 Um app simples que realiza a estimativa da quantidade de carne e bebidas para um churrasco.<br>
-Feito com html, css e js vanilla.
+Feito com html, css e js vanilla.<br>
+Acesse: http://churrascometrov2.vercel.app/
