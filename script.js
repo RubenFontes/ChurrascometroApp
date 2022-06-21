@@ -21,7 +21,7 @@ calcular = () => {
     console.log(cervejaTotal);
     console.log(bebidasTotal);
 
-    resultado.innerHTML = `<p> <strong>${carneTotal/1000}Kg</strong> de carne</p>`;
+    resultado.innerHTML = `<p> <strong>${Math.ceil(carneTotal/1000)}Kg</strong> de carne</p>`;
     resultado.innerHTML += `<p> <strong>${Math.ceil(cervejaTotal/269)} latinhas</strong> de cerveja</p>`;
     resultado.innerHTML += `<p> <strong>${Math.ceil(bebidasTotal/2000)}</strong> refrigerantes de <strong>2L</strong></p>`;
 }
